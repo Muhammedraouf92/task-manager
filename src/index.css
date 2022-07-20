@@ -1,0 +1,50 @@
+body {
+	margin: 0;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+		"Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+		sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+code {
+	font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+		monospace;
+}
+
+.border-green {
+	border: 1px solid green;
+}
+.showtasks {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 0.5rem;
+	align-items: center;
+	padding: 1rem 2rem;
+	background-color: beige;
+	border-radius: 10px;
+}
+.text h1 {
+	font-size: 1.5rem;
+	text-transform: capitalize;
+	color: black;
+}
+.reminder {
+	font-size: 16px;
+	display: flex;
+	gap: 6rem;
+
+	margin-bottom: 1rem;
+}
+.reminder label {
+	font-size: 20px;
+	text-transform: capitalize;
+}
+.reminder input {
+	width: 20px;
+}
+@media (max-width: 400px) {
+	.showtasks {
+		flex-direction: column;
+	}
+}
